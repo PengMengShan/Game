@@ -1,9 +1,9 @@
 // 游戏工具类
 document.onkeydown = keydown;
 document.onkeyup = keyup;
-window.addEventListener('deviceorientation', this.orientationListener, false); //方向感应器
-window.addEventListener('MozOrientation', this.orientationListener, false); //方向感应器
-window.addEventListener('devicemotion', this.orientationListener, false); //重力加速感应器
+window.addEventListener('deviceorientation', this.orientationListener, true); //方向感应器
+window.addEventListener('MozOrientation', this.orientationListener, true); //方向感应器
+window.addEventListener('devicemotion', this.orientationListener, true); //重力加速感应器
 // 绑定键盘
 function keydown(e) {
     var keyName;　
