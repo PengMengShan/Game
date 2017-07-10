@@ -22,6 +22,7 @@
         this.ctx2.fillText( "彭蒙善出品" + "必属精品" , this.myCanvas.width/2 , this.myCanvas.height*0.95);
         this.ctx2.fillText("    游戏名：" +  "纸飞机下降" + "" + "" , this.myCanvas.width/2.5, this.myCanvas.height*0.1);
         this.ctx2.fillText("作  者" +  "："  + "彭蒙善" , this.myCanvas.width/2.5, this.myCanvas.height*0.17);
+        this.ctx2.fillText("  玩  法" +  "："  + "←→键盘" , this.myCanvas.width/2.5, this.myCanvas.height*0.24);
 
         document.querySelector("#beijing").load();
         document.querySelector("#beijing").play();
