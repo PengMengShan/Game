@@ -4,6 +4,15 @@ document.onkeyup = keyup;
 window.addEventListener('deviceorientation', this.orientationListener, true); //方向感应器
 window.addEventListener('MozOrientation', this.orientationListener, true); //方向感应器
 window.addEventListener('devicemotion', this.orientationListener, true); //重力加速感应器
+function handleOrientation(event) {
+  var absolute = event.absolute;
+  var alpha    = event.alpha;//值表示设备围绕z轴的运动，以度为单位，值范围为0到360。
+  var beta     = event.beta;//值表示设备围绕x轴的运动，以度为单位表示，值范围为-180到180.这表示    
+                              // 设备的前后运动。
+  var gamma    = event.gamma;//值表示设备围绕y轴的运动，以度为单位表示，值范围为-90到90.这表示设                    
+                               // 备从左到右的运动
+ 
+}
 // 绑定键盘
 function keydown(e) {
     var keyName;　
